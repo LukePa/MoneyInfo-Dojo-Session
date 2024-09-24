@@ -1,0 +1,51 @@
+
+
+Topics to cover
+
+- Html
+- Css
+- Javascript
+- Talking to the backend
+
+
+
+
+Html
+- Everything acts in a box. There are different types of boxes. Inline, block, etc.
+- These were the first websites
+
+These things look ugly. People invented Css
+
+Css
+- Explain how elements are selected on the page. Show simple style changes. But things are still positioned badly.
+- Show more advanced styling, like flex boxes to adjust layout
+- Show something advanced
+
+These things can look pretty. But they can't function, we need Javascript
+
+Javascript
+- Show example of javascript doing something simple. Add a counter to show how many times the user has been on the site. Chance to explain about cookies.
+- Cool, our website can now do stuff. Show an example of javascript adding a picture or new styling for a certain amount of visits, and opening a modal. 
+- This works in an isolated environment, what if we want to get and show the user data? We need a backend.
+- For an example of a backend. And how the backend and frontend work together. We will make a todo list app.
+
+Does anyone have any questions about what I've gone through so far? Is there anything anyone is curious about how we could add to the page? We can go through how to add that together
+
+
+
+TODO LIST app
+ 
+We need to add, delete and remove a todo
+
+Making a request to an api
+- Write a small api before hand. Show the code and explain it.
+- Show calling the api, and show what we get back from the network tab.
+- Theres a lot of moving pieces here. Using vanilla javascript we would be writing a lot of code to do this. No one actually writes it because it takes too long.
+- This is why javascript libraries were invented. One of the first big javascript libraries is knockout, all of moneyinfo uses this. And MIM code that isn't part of the transition to vue,
+uses knockout too. You're never going to interact with vanilla javascript, so this is a better example to run with you.
+- Show an example of a knockout binding to do something simple. Refactor the simple javascript into knockout.
+- Now lets make a view model for our tasks information. -Tailer the examples of javascript I show to include things needed to make the todo list, maybe people can figure it out if I ask
+them how they'd impliment a feature.-
+- Then just take them through building the todo list app
+
+
